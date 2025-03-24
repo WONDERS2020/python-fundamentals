@@ -7,7 +7,7 @@ while True:
     num = int(input("Enter num:" ))
     if num == guess:
         print("Congratulations, You Guess It!")
-        exit(0)
+        break
     elif num > guess:
         print("Too High, Try Again")
     else:

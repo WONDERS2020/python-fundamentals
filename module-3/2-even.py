@@ -1,4 +1,6 @@
 #/usr/bin/python3
+""" A program that ask a user for a number"""
+
 num = int(input("Enter number: "))
 if num % 2 == 0 and num % 5 == 0:    
     print("the number is even and divisible by 5")

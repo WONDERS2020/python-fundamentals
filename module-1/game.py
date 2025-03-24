@@ -4,8 +4,8 @@ def guessing_game():
     """
     A simple number guessing game where the user tries to guess a random number between 1 and 100.
     """
-    number = random.randint(1, 100)  # Generate a random number
-    guesses_left = 10  # Set the number of guesses allowed 
+    number = random.randint(1, 5)  # Generate a random number
+    guesses_left = 3  # Set the number of guesses allowed 
     
     print("Welcome to the Guessing Game!")
     print("Think of a number between 1 and 100.") 
@@ -16,9 +16,8 @@ def guessing_game():
         except ValueError:
             print("Invalid input. Please enter a number.")
             continue
-        
         guesses_left -= 1 
- if guess < number:
+        if guess < number:
             print("Too low!")
         elif guess > number:
             print("Too high!")
@@ -29,5 +28,5 @@ def guessing_game():
     if guesses_left == 0:
         print(f"OBOI TRY AGAIN The number was {number}.")
 
-if _name_ == "_main_":
-    guessing_game()
+if __name__ == "_main_":
+   guessing_game()

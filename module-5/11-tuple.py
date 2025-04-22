@@ -1,6 +1,6 @@
 #/usr/bin/python3
-numbers = (1, 2, 3, -5)
-print(numbers)
+tuple_numbers = (1, 2, 3, -5)
+print(tuple_numbers)
 
 empty = ()
 print (empty)

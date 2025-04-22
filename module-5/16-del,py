@@ -1,0 +1,3 @@
+#/usr/bin/python3
+animals =("Goat", "Cow", "Carmel", "Snail", "Dog", "Pig",)
+del animals

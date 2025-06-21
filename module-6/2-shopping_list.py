@@ -7,7 +7,6 @@ grocery_list = ["milk", "bread", "eggs", "apples", "rice"]
 print("Original grocery list:")
 print(grocery_list)
 
-# Add a new item to the list
 grocery_list.append("cheese")
 print("\nAfter adding 'cheese':")
 print(grocery_list)

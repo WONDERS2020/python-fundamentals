@@ -20,10 +20,10 @@ test_cases = [
 for a, b in test_cases:
     result = is_multiple(a, b)
     print(f"is_multiple({a}, {b}) → {result}")
-is_multiple(10, 5) → False
-is_multiple(4, 2) → False
-is_multiple(3, 3) → True
-is_multiple(0, 5) → False
-is_multiple(5, 0) → False
-is_multiple(12, 4) → False
-is_multiple(6, 3) → False
+is_multiple(10, 5) 
+is_multiple(4, 2)
+is_multiple(3, 3)
+is_multiple(0, 5)
+is_multiple(5, 0)
+is_multiple(12, 4) 
+is_multiple(6, 3) 

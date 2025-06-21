@@ -1,7 +1,7 @@
 #/usr/bin/python3
 
 # Ask the user to enter a score between 0 and 100
-score_input = input("Enter your score (0–100): ")
+score_input = input("Enter your score (0-100): ")
 
 try:
     # Convert input to an integer
